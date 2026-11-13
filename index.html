@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="EXPEX INDIANA GREEN FOUNDATION — growing a greener future through tree plantation, water conservation and community action.">
+<title>EXPEX INDIANA GREEN FOUNDATION</title>
+<style>
+:root{--green:#174d35;--leaf:#3e8b59;--lime:#c9df9b;--cream:#f6f5ed;--ink:#183126;--muted:#65756a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1140px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#fffffff0;backdrop-filter:blur(12px);border-bottom:1px solid #e7ede6}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.04em;color:var(--green)}.brand-mark{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:white;font-size:23px}
+.navlinks{display:flex;gap:22px;font-size:13px;font-weight:700}.navlinks a:hover{color:var(--leaf)}.menu{display:none;border:0;background:none;font-size:25px}
+.hero{background:linear-gradient(90deg,#0c3025e8,#0c3025a8),url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=2000&q=85') center/cover;color:white;padding:115px 0 105px}
+.kicker{text-transform:uppercase;letter-spacing:.2em;font-size:12px;font-weight:800;color:var(--lime)}h1{font-size:clamp(42px,7vw,76px);line-height:1.02;max-width:780px;margin:18px 0} .hero p{font-size:18px;max-width:620px;color:#e4eee5}
+.btn{display:inline-block;background:var(--lime);color:#173c2b;padding:14px 22px;border-radius:4px;font-weight:800;margin:12px 10px 0 0}.btn.outline{background:transparent;border:1px solid #ffffffa8;color:white}
+section{padding:82px 0}.eyebrow{color:var(--leaf);font-weight:800;text-transform:uppercase;letter-spacing:.16em;font-size:11px}h2{font-size:clamp(30px,4vw,46px);line-height:1.12;margin:10px 0 18px;color:var(--green)}.intro{max-width:700px;color:var(--muted);font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:35px}.card{background:var(--cream);border-radius:8px;overflow:hidden}.card img{width:100%;height:210px;object-fit:cover;display:block}.card-body{padding:22px}.card h3{margin:0 0 8px;color:var(--green)}.card p{margin:0;color:var(--muted);font-size:14px}
+.vision{background:var(--cream)}.vision-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.vision img{width:100%;height:430px;object-fit:cover;border-radius:8px}
+.pledge{background:var(--green);color:white;text-align:center}.pledge h2{color:white}.pledge .intro{color:#d9e7dc;margin:0 auto}.big-number{font-size:clamp(58px,9vw,100px);font-weight:900;line-height:1;color:var(--lime);margin:24px 0 8px}.pledge small{color:#d9e7dc}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:35px}.stat{border:1px solid #dbe5da;padding:24px;border-radius:8px}.stat strong{display:block;font-size:30px;color:var(--green)}.stat span{font-size:13px;color:var(--muted)}
+.gallery{background:#f7f8f3}.gallery-tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:22px 0}.upload{background:var(--green);color:white;padding:11px 16px;border-radius:4px;font-weight:700;cursor:pointer}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery-grid img{width:100%;height:235px;object-fit:cover;border-radius:6px}.note{font-size:12px;color:var(--muted)}
+.join{background:#e8f0e4}.join-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}.join form{display:grid;gap:12px}.join input,.join textarea{width:100%;padding:13px;border:1px solid #cbd8cb;border-radius:4px;font:inherit;background:white}.join button{border:0;cursor:pointer}
+footer{background:#102c22;color:#e7efe8;padding:42px 0}.foot{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}.foot small{color:#b6c8ba}.foot a{color:var(--lime)}
+@media(max-width:760px){.navlinks{display:none;position:absolute;top:76px;left:0;right:0;background:white;padding:20px;flex-direction:column}.navlinks.open{display:flex}.menu{display:block}.grid,.gallery-grid{grid-template-columns:1fr 1fr}.vision-grid,.join-grid{grid-template-columns:1fr}.vision img{height:300px}.stats{grid-template-columns:1fr}.hero{padding:85px 0}}
+@media(max-width:480px){.grid,.gallery-grid{grid-template-columns:1fr}.gallery-grid img{height:220px}}
+@media print{header,.btn,.gallery-tools,.join form{display:none!important}section{padding:28px 0;break-inside:avoid}.hero{background:#174d35!important;print-color-adjust:exact}.card,.stat{break-inside:avoid}body{font-size:11pt}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="#home"><span class="brand-mark">✦</span><span>EXPEX INDIANA<br><small style="font-size:10px;letter-spacing:.18em">GREEN FOUNDATION</small></span></a>
+<button class="menu" aria-label="Open menu" onclick="document.querySelector('.navlinks').classList.toggle('open')">☰</button>
+<div class="navlinks"><a href="#vision">OUR VISION</a><a href="#tree">TREE LIFECYCLE</a><a href="#activities">ACTIVITIES</a><a href="#gallery">GALLERY</a><a href="#join">GET INVOLVED</a></div>
+</nav></div></header>
+<main id="home">
+<div class="hero"><div class="wrap"><div class="kicker">A greener tomorrow starts today</div><h1>Small actions.<br>Living forests.<br>A better future.</h1><p>We bring people, communities and conscious choices together to restore green spaces, protect water and care for the environment.</p><a class="btn" href="#tree">Discover our tree promise</a><a class="btn outline" href="#join">Join the movement</a></div></div>
+<section id="vision" class="vision"><div class="wrap vision-grid"><div><div class="eyebrow">Who we are</div><h2>Our vision is a world where growth gives back to nature.</h2><p class="intro">EXPEX INDIANA GREEN FOUNDATION is an environmental initiative built around practical community action. Our focus is not only planting trees, but helping them survive and supporting the people and ecosystems around them.</p><p>We aim to work with local communities, schools, volunteers, environmental groups and responsible partners. Every activity should be documented, measurable and rooted in local needs.</p><a class="btn" href="#activities">Explore our work</a></div><img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1100&q=85" alt="Young green plant growing in soil"></div></section>
+<section id="tree" class="pledge"><div class="wrap"><div class="eyebrow" style="color:var(--lime)">The Tree Lifecycle Collection</div><h2>Wear the change. Help grow the future.</h2><div class="big-number">10 → 1 🌱</div><h3>ONE TREE FOR EVERY TEN T-SHIRTS SOLD</h3><p class="intro">For every 10 T-shirts sold from the EXPEX INDIANA Tree Lifecycle Collection, we commit to planting one tree through a documented plantation activity.</p><p><small>We will share plantation dates, locations and follow-up updates. The goal is a living tree—not just a number.</small></p><a class="btn" href="#gallery">See plantation stories</a></div></section>
+<section id="activities"><div class="wrap"><div class="eyebrow">Our action areas</div><h2>From planting to long-term care.</h2><p class="intro">Ideas for meaningful programmes that can be developed with local partners and communities.</p>
+<div class="grid">
+<article class="card"><img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=900&q=80" alt="Hands planting a young tree"><div class="card-body"><h3>Afforestation Drives</h3><p>Plant locally suitable native trees on approved sites, with community participation and a survival-monitoring plan.</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1437482078695-73f5ca6c96e2?auto=format&fit=crop&w=900&q=80" alt="Water flowing in a natural stream"><div class="card-body"><h3>Water for Drought-Prone Areas</h3><p>Support rainwater harvesting, recharge pits, watershed restoration and water budgeting with local experts.</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=900&q=80" alt="Community volunteers outdoors"><div class="card-body"><h3>Community Green Teams</h3><p>Work with schools, farmers and residents to care for saplings, protect existing trees and keep local green spaces healthy.</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=900&q=80" alt="Forest landscape"><div class="card-body"><h3>Adopt & Protect a Tree</h3><p>Assign a care group to water, mulch and monitor each planting site, especially through the first dry seasons.</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=80" alt="Green leaves in sunlight"><div class="card-body"><h3>Green Schools</h3><p>Run nature-learning sessions, campus biodiversity activities, seed collection and student-led tree-care clubs.</p></div></article>
+<article class="card"><img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=900&q=80" alt="Sunlight filtering through a forest"><div class="card-body"><h3>Urban Micro-Forests</h3><p>Explore native dense-planting projects, including Miyawaki-style sites, only where land, water and maintenance are suitable.</p></div></article>
+</div></div></section>
+<section class="gallery" id="gallery"><div class="wrap"><div class="eyebrow">Field notes & photographs</div><h2>Our plantation stories.</h2><p class="intro">Add photographs from real drives with the date, location, species planted and follow-up progress.</p>
+<div class="gallery-tools"><label class="upload">＋ Add photos (preview on this device)<input id="photoInput" type="file" accept="image/*" multiple hidden></label><span class="note">Demo uploader: photos are shown in this browser only. For public updates, add images to the website files and publish again.</span></div>
+<div class="gallery-grid" id="galleryGrid">
+<img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=800&q=80" alt="Tree planting activity">
+<img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80" alt="Young sapling">
+<img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" alt="Green forest">
+</div><p class="note">Replace these sample nature photographs with your own genuine activity photographs before launch.</p></div></section>
+<section><div class="wrap"><div class="eyebrow">Measure what matters</div><h2>Transparent impact, built over time.</h2><p class="intro">Publish verified figures here as projects are completed. Do not use estimates as achieved results.</p><div class="stats"><div class="stat"><strong>—</strong><span>Trees planted (verified)</span></div><div class="stat"><strong>—</strong><span>Plantation sites supported</span></div><div class="stat"><strong>—</strong><span>Survival rate after follow-up</span></div></div></div></section>
+<section class="join" id="join"><div class="wrap join-grid"><div><div class="eyebrow">Be part of the change</div><h2>Let's grow something that lasts.</h2><p>Volunteer for a plantation drive, suggest a community project, partner with us or share your ideas. Start a conversation and help turn good intentions into long-term action.</p><p><b>EXPEX INDIANA GREEN FOUNDATION</b><br>India</p><p class="note">Before launch, add your official email address, phone number and social links here.</p></div>
+<form onsubmit="event.preventDefault();alert('This sample form is not connected yet. Add your email or a form service before publishing.');"><input required placeholder="Your name"><input type="email" required placeholder="Email address"><input placeholder="City / organisation"><textarea rows="4" placeholder="How would you like to get involved?"></textarea><button class="btn" type="submit">Send interest (demo)</button></form>
+</div></section>
+</main>
+<footer><div class="wrap foot"><div><b>EXPEX INDIANA GREEN FOUNDATION</b><br><small>Wear the change. Grow the future.</small></div><div><a href="#home">Back to top ↑</a><br><small>© <span id="year"></span> EXPEX INDIANA GREEN FOUNDATION</small></div></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('photoInput').addEventListener('change',function(e){
+ const grid=document.getElementById('galleryGrid');
+ [...e.target.files].forEach(file=>{if(!file.type.startsWith('image/'))return;const url=URL.createObjectURL(file);const img=document.createElement('img');img.src=url;img.alt='Uploaded plantation photograph preview';grid.prepend(img);});
+});
+</script>
+</body></html>
